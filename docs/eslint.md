@@ -41,8 +41,24 @@ npm init @eslint/config
 
 ## eslintrc.json
 
+### extends
+
+#### air bnb
+
+#### prettier
+
+- prettier가 프로젝트 내부에서 동작할 수 있도록 설정(확장)한다
+
 ### rules
 
 #### linebreak-style: ["error", "windows"]
 
 - 기본 값은 "windows"가 아니라 "unix"이다. 만약 본인이 유닉스 기반의 기기라면 이 룰을 지우거나 "unix"로 수정하면 된다.
+
+#### "quotes": ["error", "single"]
+
+- single quote 가 아니라면 에러
+
+#### "import/no-extraneous-dependencies": [0, { "devDependencies": ["lodash"] }]
+
+- lodash는 devDependencies여도 에러를 띄우지말아줘
