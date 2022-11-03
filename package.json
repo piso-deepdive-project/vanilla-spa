@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/piso-deepdive-project/vanilla-spa/issues"
   },
-  "homepage": "https://github.com/piso-deepdive-project/vanilla-spa#readme"
+  "homepage": "https://github.com/piso-deepdive-project/vanilla-spa#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
 }
